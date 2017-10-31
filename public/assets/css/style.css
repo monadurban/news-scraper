@@ -1,0 +1,89 @@
+body {
+  background-color: floralwhite;
+}
+
+#results  {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.pageHeader {
+  background-color: firebrick;
+  height: 150px;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border: none;
+  color: floralwhite;
+}
+
+.pageHeader h1{
+  color: floralwhite;
+}
+
+.pageHeader h2 {
+  color: floralwhite;
+}
+
+.rowText {
+  color: firebrick;
+  font-size: 2em;
+}
+
+.smallText {
+  color: firebrick;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#articles p{
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+#articles p:hover {
+  cursor: default;
+}
+
+#articles>a {
+  color: firebrick;
+}
+
+#articles>a:hover {
+  cursor: pointer;
+}
+
+input {
+  height: 36px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
+
+textarea, input {
+  display: block;
+  width: 100%;
+  background-color: floralwhite;
+}
+
+p.title {
+  color: #777777;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background: floralwhite;
+}
+#savenote {
+  margin: 10px;
+  width: 100px;
+}
+
+#deletenote {
+  margin: 10px;
+}
