@@ -19,10 +19,6 @@ var Article = require("../models/Article.js");
 //DB config with mongoose
 var dbURI = 'mongodb://localhost/news-scraper';
 
-if (process.env.NODE_ENV === 'production') {
-    dbURI= "mongodb://heroku_w677159l:cn2kbl6l1cogrv4vf13g13iug8@ds133158.mlab.com:33158/heroku_w677159l";
-}
-
 // Database configuration with mongoose
 mongoose.connect(dbURI);
 var db = mongoose.connection; */
